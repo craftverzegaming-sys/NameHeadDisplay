@@ -1,0 +1,32 @@
+{
+  "mod.nameheaddisplay.title": "NameHeadDisplay",
+  "mod.nameheaddisplay.subtitle": "Customize your name, head and experience bar",
+  "mod.nameheaddisplay.section.head": "Head",
+  "mod.nameheaddisplay.section.name": "Name",
+  "mod.nameheaddisplay.section.exp": "Experience Bar",
+
+  "options.nameheaddisplay.head_enabled": "Player Head",
+  "options.nameheaddisplay.head_texture": "Texture / Identifier",
+  "options.nameheaddisplay.head_size": "Head Size",
+  "options.nameheaddisplay.head_outline": "Head Outline",
+  "options.nameheaddisplay.head_layer": "Head Layer",
+
+  "options.nameheaddisplay.name_enabled": "Custom Name",
+  "options.nameheaddisplay.name_shadow": "Name Shadow",
+  "options.nameheaddisplay.custom_name": "Custom Name Text",
+  "options.nameheaddisplay.rainbow_name": "Rainbow Name",
+
+  "options.nameheaddisplay.exp_enabled": "Experience Bar Display",
+  "options.nameheaddisplay.exp_scale": "Experience Bar Scale",
+  "options.nameheaddisplay.exp_position": "Experience Bar Position",
+
+  "options.nameheaddisplay.layer.ontop": "On top",
+  "options.nameheaddisplay.layer.normal": "Normal",
+  "options.nameheaddisplay.layer.behind": "Behind",
+
+  "gui.nameheaddisplay.save": "Save",
+  "gui.nameheaddisplay.exit": "Exit",
+
+  "key.nameheaddisplay.category": "NameHeadDisplay",
+  "key.nameheaddisplay.open_config": "Open Configuration"
+}
