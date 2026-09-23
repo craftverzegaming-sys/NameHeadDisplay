@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "nameheaddisplay",
+  "version": "${version}",
+  "name": "NameHeadDisplay",
+  "description": "Customize your player head, custom name, and experience bar overlays.",
+  "authors": [
+    {
+      "name": "Craftverze"
+    }
+  ],
+  "contact": {
+    "sources": "https://github.com/Craftverze/NameHeadDisplay"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.craftverze.nameheaddisplay.NameHeadDisplayClient"
+    ]
+  },
+  "mixins": [
+    "nameheaddisplay.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "==1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
