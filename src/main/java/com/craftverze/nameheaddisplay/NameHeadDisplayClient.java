@@ -1,14 +1,13 @@
 package com.craftverze.nameheaddisplay;
 
-import com.craftverze.nameheaddisplay.config.ModConfig;
-import com.craftverze.nameheaddisplay.keybind.KeyBindManager;
+import com.craftverze.nameheaddisplay.render.HudDisplayRenderer;
 import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 
 public class NameHeadDisplayClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        ModConfig.load();
-        KeyBindManager.register();
-        NameHeadDisplayMod.LOGGER.info("NameHeadDisplay Client initialization complete.");
+        // Register the HUD renderer callback
+        HudRenderCallback.EVENT.register(new HudDisplayRenderer());
     }
 }
